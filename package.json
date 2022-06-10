@@ -2,6 +2,7 @@
   "name": "dinara-hapi",
   "version": "1.0.0",
   "description": "",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "start": "node ./src/server.js",
@@ -11,8 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@hapi/hapi": "^20.2.2",
-    "mysql": "^2.18.1"
+    "@hapi/hapi": "^20.2.2"
   },
   "devDependencies": {
     "eslint": "^8.17.0",
